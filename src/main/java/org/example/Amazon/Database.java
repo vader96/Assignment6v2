@@ -33,6 +33,10 @@ public class Database {
 
     public void resetDatabase() {
         withSql(() -> {
+            // Simply added a check to close the old connection before proceeding.
+            if (connection != null) {
+                connection.close();
+            }
             connection = DriverManager.getConnection("jdbc:hsqldb:mem:mymemdb.db", "SA", "");
             try (var preparedStatement = connection.prepareStatement("delete from shoppingcart")) {
                 preparedStatement.execute();

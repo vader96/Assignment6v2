@@ -24,3 +24,7 @@ Tests are labels with @DisplayName("specification-based") or @DisplayName("struc
 This is the Build Badge to show the status of the project.  
 This is a link to the workflow run:   
 This part of the assignment automates testing and static analysis using GitHub Actions. 
+## Part #3
+For Part #3, I implemented test cases for the Amazon project, where I did specification, structural, integration, and unit testing.
+## Specification-Based Tests and Structural-Based Tests
+Tests are labels with @DisplayName("specification-based") or @DisplayName("structural-based") to indicate their category.
