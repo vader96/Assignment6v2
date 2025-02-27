@@ -22,9 +22,10 @@ Tests are labels with @DisplayName("specification-based") or @DisplayName("struc
 ## Part #2
 ![Build Status](https://github.com/vader96/Assignment6v2/actions/workflows/SE333_CI.yml/badge.svg)  
 This is the Build Badge to show the status of the project.  
-This is a link to the workflow run:   
+This is a link to the workflow run: https://github.com/vader96/Assignment6v2/actions/runs/13573523617   
 This part of the assignment automates testing and static analysis using GitHub Actions. 
 ## Part #3
 For Part #3, I implemented test cases for the Amazon project, where I did specification, structural, integration, and unit testing.
 ## Specification-Based Tests and Structural-Based Tests
-Tests are labels with @DisplayName("specification-based") or @DisplayName("structural-based") to indicate their category.
+Tests are labels with @DisplayName("specification-based") or @DisplayName("structural-based") to indicate their category.  
+Additionally, the 'checkstyle-result.xml' report has been generated as required, along with 'checkstyle.html' for another formatted version of the report.
