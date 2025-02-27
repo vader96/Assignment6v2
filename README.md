@@ -18,3 +18,9 @@ Tests are labels with @DisplayName("specification-based") or @DisplayName("struc
 2. Use mvn clean, then mvn compile, and finally mvn test
 3. After running mvn test, it will output a folder under jacoco called index.html
 4. Once you open the index.html file, you will see the coverage results.
+
+## Part #2
+![Build Status](https://github.com/vader96/Assignment6v2/actions/workflows/SE333_CI.yml/badge.svg)  
+This is the Build Badge to show the status of the project.  
+This is a link to the workflow run:   
+This part of the assignment automates testing and static analysis using GitHub Actions. 
